@@ -1,6 +1,6 @@
 import React from 'react';
-import Logon from './pages/Logon/index';
 import './global.css';
+import Routes from './routes';
 
 // JSX (Javascript XML) -- html integrado em um arquivo .js
 //componente é uma função que retorna html.
@@ -14,7 +14,7 @@ function App() {
     }
   */
   return (
-    <Logon/>
+    <Routes/>
   );
 }
 
